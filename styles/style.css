@@ -1,0 +1,58 @@
+/*Effects to every element*/
+/** {
+	border:1px solid red;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret One');
+/*Set body */
+html, body {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.content{
+	position: fixed;
+	top: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-image:  url("../images/YogaPos.jpg");
+	/*background-image: url('http://www.beerleagueblog.ca/wp-content/uploads/2014/12/Pond-Hockey.jpg');*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #333;
+}
+/*Main container for the image*/
+img {
+	width: 60%;
+	height: auto;
+	margin-right: auto;
+	margin-right: auto;
+}
+
+.main {
+	height: 300px;
+	width: 60%;
+	min-width: 400px;
+	margin: 100px auto 0 auto;
+}
+
+.btn-main {
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-transform: uppercase;
+  z-index: 9999;
+  display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

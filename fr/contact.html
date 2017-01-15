@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<!-- ********************************* HEAD ********************************* -->
+<head>
+ <!-- Website infoormation -->
+ <title>BastienPhysio</title>
+ <!-- Import Bootstrap style -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- Custom style sheet and script-->
+ <link rel="stylesheet" type="text/css" href="../styles/layout.css?v=21">
+ <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+ <script type='text/javascript' src='../scripts/home.js?v=8'></script>
+</head>
+
+<!-- ********************************* BODY ********************************* -->
+<body>
+ <!-- Header to hold the logo -->
+ <div class="header">
+  <div class="container">
+    <a href="/en/home.html"><img src="../images/BastienPhysioLogo.png"></a>
+  </div>
+ </div>
+<!-- Notes: -->
+<!--  -->
+ <!-- Navigation bar -->
+<div class="navbar navbar-inverse navbar-fixed-top" style="margin-top:170px; background-color:#005D08; border: 0;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-inverse-collapse navbar-collapse collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+         <a class="nav-link" href="/fr/home.html">Accueil</a>
+        </li>
+
+        <!-- <li class="dropdown">
+         <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Information</a>
+         <ul class="dropdown-menu">
+          <li><a href="#">RPG</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+         </ul>
+       </li> -->
+         <li class="nav-item">
+         <a class="nav-link" href="/fr/about.html">À propos</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="/fr/service.html">Information</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="/fr/location.html">Location</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" style="background-color:#aaa;"  href="/fr/contact.html"><span style="color:black;">Contact</span></a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="/fr/home.html">English</a>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<!-- Jumbotron with apoitnment button -->
+<div class="header-underline" id="first-bar"><class class="container"></class></div>
+ <div class="jumbotron">
+  <div class="container">
+  </div>
+ </div>
+
+<div class="content header-window">
+  <div class="container">
+    <div class="promo-window">
+      <h2>Promouvoir la santé et la croissance physique parmi notre communauté</h2>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <div class="container">
+    <!-- Physio row -->
+    <div class="row">
+      <div class="col-md-8 nopadding">
+        <div class="pic-window-off"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="adr-window">
+          <h3>Bastien Physiotherapy</h3>
+          <h4>(613) 724-7116</h4>
+          <h4>106-2115 Laval Road,</h4>
+          <h4>Bourget ON,</h4>
+          <h4>K0A 1E0</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<div class="content email-box">
+ <div class="inner contact">
+                <!-- Form Area -->
+                <script src="/vendor/formvalidation/js/language/fr_FR.js"></script>
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" action="https://formspree.io/patrickvmcvey@gmail.com" method="POST">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Nom" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Courriel" />
+                            <!-- Subject -->
+                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Sujet" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <!-- Message -->
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div><!-- End Right Inputs -->
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Envoyer un message</button> 
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                        
+                        <script type="text/javascript">
+                          function myFunction() {
+                          alert("Merci! Message envoyé.");
+                          }
+                        </script>
+                        <input type="hidden" name="_next" value="/fr/contact.html" />
+                    </form>
+
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <p>All contents &#169 2016 BasienPhysio. All rights reserved.</p>
+  </div> 
+</div>
+</body>
+</html>
