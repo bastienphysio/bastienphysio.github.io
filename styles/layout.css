@@ -218,21 +218,21 @@ p {
 }
 .pic-window-rpg {
 	height: 400px;
-	background-image: url("../images/physi1.jpg");
+	background-image: url("../images/RPG.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .pic-window-phy {
 	height: 400px;
-	background-image: url("../images/physi2.jpg");
+	background-image: url("../images/ExercTherapy.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
 .pic-window-dn {
 	height: 400px;
-	background-image: url("../images/Dry-Needling-8.jpg");
+	background-image: url("../images/DryKneedlingAndAccupuncture.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
