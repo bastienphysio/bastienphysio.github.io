@@ -1,5 +1,5 @@
 /*Font settings*/
-@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret One');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret One|Arvo');
 /** {
 	border: 1px solid blue;
 }*/
@@ -25,27 +25,28 @@ html, body {
 h1 {
 	background-color: #005D08;
 	color: white;
+  font-size: 30px;
 	border: 2px solid #005D08;
     border-radius: 160px;
     height: 160px;
     width: 160px;
-    font-family: Poiret One, sans-serif;
+    font-family: Arvo, sans-serif;
 }
 h2 {
 	color: white;
-    font-family: Poiret One, sans-serif;
+    font-family: Arvo, sans-serif;
     padding-bottom: 5px;
 }
 h3 {
 	color: #005D08;
-    font-family: Poiret One, sans-serif;
+    font-family: Arvo, sans-serif;
     padding-bottom: 5px;
     font-size: 30px;
     text-align: left;
     font-weight: bold;
 }
 h4 {
-    font-family: Poiret One, sans-serif;
+    font-family: Arvo, sans-serif;
     padding-bottom: 5px;
     font-size: 20px;
     text-align: left;
@@ -53,7 +54,7 @@ h4 {
 }
 
 p {
-	font-family: Poiret One, sans-serif;
+	font-family: Arvo, sans-serif;
 	font-size: 1.3em;
 }
 
@@ -75,7 +76,7 @@ p {
   border-radius: 5px;
   background-color: rgba(0, 117, 190,0.8);
   color: #fff;
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Arvo', sans-serif;
   font-weight: lighter;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -102,7 +103,7 @@ p {
 }
 
 .header {
-	background-color: #aaa;
+	background-color: #fff;
 	width:100%;
 	height: 170px;
 	position: fixed;
@@ -132,16 +133,16 @@ p {
 
 .navbar .navbar-collapse {
   text-align: center;
-  font-family: 'Poiret One';
+  font-family: 'Arvo';
   font-size: 20px;
 }
 
 /*Font settings*/
-@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret One');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret One|Arvo');
 
 .info-window ul {
 	list-style-position: inside;
-	font-family: Poiret One, sans-serif;
+	font-family: Arvo, sans-serif;
 	font-size: 1.3em;
 	text-align: left;
 	padding-left: 5%;
@@ -206,7 +207,7 @@ p {
 .info-button {
 	border: 2px solid rgb(0, 117, 190);
 	border-radius: 5px;
-	font-family: Poiret One, sans-serif;
+	font-family: Arvo, sans-serif;
 	font-size: 1.3em;
 	padding: 5px 20px;
 }
@@ -223,6 +224,13 @@ p {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+.pic-window-scl {
+  height: 450px;
+  background-image: url("../images/Scol.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 .pic-window-phy {
 	height: 450px;
 	background-image: url("../images/ExercTherapy.jpg");
@@ -237,7 +245,21 @@ p {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
+.pic-window-marc {
+  height: 700px;
+  background-image: url("../images/Bastien_blk_white.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 
+.pic-window-marc-2 {
+  height: 500px;
+  background-image: url("../images/IMG_3968 (1).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 .pic-window-off {
 	height: 275px;
 	background-image: url("../images/Office.png");
